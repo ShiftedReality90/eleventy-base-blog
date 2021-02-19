@@ -1,7 +1,7 @@
 {
-  "title": "Your Blog Name",
+  "title": "Pete's Blog Post",
   "url": "https://example.com/",
-  "description": "I am writing about my experiences as a naval navel-gazer.",
+  "description": "I am writing about myself as per The Coders Guild Course.",
   "feed": {
     "subtitle": "I am writing about my experiences as a naval navel-gazer.",
     "filename": "feed.xml",
@@ -13,7 +13,7 @@
     "url": "https://example.com/feed/feed.json"
   },
   "author": {
-    "name": "Your Name Here",
+    "name": "Peter O'Connell",
     "email": "youremailaddress@example.com",
     "url": "https://example.com/about-me/"
   }
