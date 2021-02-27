@@ -1,12 +1,12 @@
 ---
 title: This is my first post
 description: This is the first post on My Blog about Cats 
-date: 2018-09-30
+date: 28th Feb 2021
 tags: Cat Facts
 layout: layouts/post.njk
 ---
 
-# Cat Facts
+## Cat Facts
 
 ## (According to Wikipedia)
 
@@ -18,4 +18,4 @@ Female domestic cats can have kittens from spring to late autumn, with litter si
 
 Cats were first domesticated in the Near East around 7500 BC. It was long thought that cat domestication was initiated in ancient Egypt, as since around 3100 BC veneration was given to cats in ancient Egypt. As of 2021 there are an estimated 220 million owned and 480 million stray cats in the world. As of 2017, the domestic cat was the second-most popular pet in the United States, with 95 million cats owned. In the United Kingdom, around 7.3 million cats lived in more than 4.8 million households as of 2019.
 
-!(Cat)[.\img\pexels-cottonbro-6869553.jpg]
+![Cat](pexels-cottonbro-6869553.jpg)
