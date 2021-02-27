@@ -18,4 +18,8 @@ Female domestic cats can have kittens from spring to late autumn, with litter si
 
 Cats were first domesticated in the Near East around 7500 BC. It was long thought that cat domestication was initiated in ancient Egypt, as since around 3100 BC veneration was given to cats in ancient Egypt. As of 2021 there are an estimated 220 million owned and 480 million stray cats in the world. As of 2017, the domestic cat was the second-most popular pet in the United States, with 95 million cats owned. In the United Kingdom, around 7.3 million cats lived in more than 4.8 million households as of 2019.
 
+<<<<<<< HEAD
 ![Cat](pexels-cottonbro-6869553.jpg)
+=======
+![Cat](C:\Users\oconn\Documents\GitHub\eleventy-base-blog\img\pexels-cottonbro-6869553.jpg)
+>>>>>>> parent of adb38f3 (attempted to add image)
