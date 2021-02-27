@@ -28,8 +28,12 @@ Cats were first domesticated in the Near East around 7500 BC. It was long though
 <<<<<<< HEAD
 <<<<<<< HEAD
 ![Cat](pexels-cottonbro-6869553.jpg)
+<<<<<<< HEAD
 =======
 ![Cat](C:\Users\oconn\Documents\GitHub\eleventy-base-blog\img\pexels-cottonbro-6869553.jpg)
 >>>>>>> parent of adb38f3 (attempted to add image)
 =======
 >>>>>>> parent of 0b99991 (test 2)
+=======
+>>>>>>> parent of ae7adce (added image plus chaged 4th post to html):posts/fourthpost.html
+>>>>>>> parent of c2a6d81 (test)
