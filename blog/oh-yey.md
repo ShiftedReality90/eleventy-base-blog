@@ -7,3 +7,5 @@ thumbnail: /images/uploads/planet-ring-blue-dark-space.jpg
 rating: 2
 ---
 Spaaaaaaaaaaaaaaaaace!
+
+<img src="{{ thumbnail | url }}"/>
