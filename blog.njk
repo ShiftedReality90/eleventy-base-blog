@@ -7,6 +7,15 @@ eleventyNavigation:
 title: Blog list
 ---
 
+<h1></h1>
+
+<p>
+  <span style="font-weight: bold;">Rating:</span>
+  {{ rating }}
+</p>
+
 {% for blogpost in collections.blog%}
    <a href="{{blogpost.url}}">{{blogpost.url}}</a>
 {% endfor %}
+
+<img src="{{ thumbnail | url }}"/>
