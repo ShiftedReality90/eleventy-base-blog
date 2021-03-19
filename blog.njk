@@ -7,4 +7,6 @@ eleventyNavigation:
 title: Blog list
 ---
 
-<h1>{My Blog}</h1>
+{% for blogpost in collections.blog%}
+   <a href="{{blogpost.url}}">{{blogpost.url}}</a>
+{% endfor %}
