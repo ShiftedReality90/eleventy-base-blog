@@ -15,9 +15,9 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: system-ui, sans-serif;
+  font-family:'Franklin Gothic Medium';
   color: var(--darkgray);
-  background-color: var(--white);
+  background-color:#07caca;
 }
 p:last-child {
   margin-bottom: 0;
@@ -45,6 +45,8 @@ main :first-child {
 }
 header {
   border-bottom: 1px dashed var(--lightgray);
+  background-color:#A3A9AC;
+  color: #C0C0C0;
 }
 header:after {
   content: "";
@@ -120,6 +122,8 @@ pre {
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
+  background-color:
+  
 }
 .home :link:not(:hover) {
   text-decoration: none;
@@ -131,6 +135,7 @@ pre {
   list-style: none;
   float: left;
   margin-left: 1em;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .nav-item {
   display: inline-block;
