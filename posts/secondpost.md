@@ -1,7 +1,7 @@
 ---
 title: My First Post
 description: This is a post on My Blog about
-date: 19-03-2021
+date: 2021-03-19
 tags:
 
 layout: layouts/post.njk
