@@ -10,7 +10,7 @@ layout: layouts/post.njk
 
 ## My Post About Ghosts
 
-[Ghost Playing Organ](img\ghost-playing-organ.jpg)
+
 
 <a href="{{ '/posts/firstpost/' | url }}">First post</a>
 <a href="{{ '/posts/thirdpost/' | url }}">Third post</a>
