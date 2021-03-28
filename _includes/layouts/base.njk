@@ -13,16 +13,25 @@
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
    </head>
-  <body>
-    <header>
-      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
 
+  <body>
+
+    <header>
+    
+    <header class="blog-header bg-info">
+    <div class="container-fluid">
+    <div class="row-md">
+    <div class="col text-center"
+      <h1 class="home"><a href="{{ '/' | url }}">{{ metadata.title }}</a></h1>
       {#- Read more about `eleventy-navigation` at https://www.11ty.dev/docs/plugins/navigation/ #}
       <ul class="nav">
       {%- for entry in collections.all | eleventyNavigation %}
         <li class="nav-item{% if entry.url == page.url %} nav-item-active{% endif %}"><a href="{{ entry.url | url }}">{{ entry.title }}</a></li>
       {%- endfor %}
       </ul>
+      </div>
+      </div>
+    </div>
     </header>
 
     <main{% if templateClass %} class="{{ templateClass }}"{% endif %}>
@@ -33,7 +42,11 @@
       {{ content | safe }}
     </main>
 
-    <footer></footer>
+    <footer class="row-md fixed-bottom bg-info">
+    <div class="col-md d-flex justify-content-center">
+     <p>&copy;By Peter O'Connell</p>
+     </div>
+     </footer>
 
     <!-- Current page: {{ page.url | url }} -->
    <script>

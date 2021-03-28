@@ -17,7 +17,7 @@ body {
   margin: 0;
   font-family:'Franklin Gothic Medium'Arial, Helvetica, sans-serif;
   color: white;
-  background-color:#07caca;
+  background-color:white;
 }
 p:last-child {
   margin-bottom: 0;
@@ -44,8 +44,8 @@ main :first-child {
   margin-top: 0;
 }
 header {
-  border-bottom: 1px dashed var(--lightgray);
-  background-color:#A3A9AC;
+  border-bottom: 1px dashed var();
+  background-color:white;
   color: #C0C0C0;
 }
 header:after {
@@ -121,7 +121,7 @@ pre {
   float: left;
   margin: 1rem 0; /* 16px /16 */
   font-size: 1em; /* 16px /16 */
-  background-color:#A3A9AC;
+  background-color:white;
   
 }
 .home :link:not(:hover) {
